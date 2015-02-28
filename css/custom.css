@@ -1,0 +1,223 @@
+body{
+	font-family:'Open Sans',sans-serif;
+	font-weight: 300;
+	font-size:16px;
+}
+
+.name {
+	width: 0;
+}
+
+.fc-webicon.facebook {
+background: url("http://www.zurb.com/playground/playground/social-webicons/images/fc-webicon-facebook.svg");
+}
+
+hr{
+	text-align:center;
+	margin:0 auto;
+	opacity:0.5;
+}
+
+ul{
+	text-transform:uppercase;
+}
+
+h1{
+	font-family: 'Cinzel', serif;
+	font-weight: 700;
+	font-size:2.4em;
+	color:#FFF;
+	line-height:28px;
+	margin-top:16px;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+h2{
+	font-family: 'Cinzel', serif;
+	font-weight: 400;
+	font-size:1.6em;
+	color:#fff;
+	line-height:34px;
+	text-align: center;
+}
+
+h4{
+	font-family: 'Cinzel', serif;
+	color:#fff;
+	font-size:1.4em;
+	padding-top:5px;}
+
+.columns.large-centered{padding-left:5px;padding-right:5px;}
+
+
+@media only screen and (max-width: 40em) {.columns.large-centered{font-size:13px;}}
+
+@media only screen and (min-width: 40.063em) {.columns.large-centered{font-size:14px;}}
+
+.about-box{
+	color:#fff;
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #fff; 
+    opacity: 0.8;
+    font-weight: 500;
+}
+
+.black-box{
+	background-color:rgba(0,0,0,0.55);
+	padding:35px;
+}
+
+.black-box p{
+	font-weight:300;
+}
+
+.secondary.small.button{
+	background-color:transparent;
+	color:#fff;
+	border:2px #fff solid;
+	border-radius:5px;
+	padding:15px 50px 15px 50px;
+	margin:0;
+}
+
+.secondary.small.button:hover{
+	background-color:rgba(255,255,255,0.5);
+}
+
+.row .main-wrapper{
+	color:#fff;
+}
+
+.main-content {
+	padding-top: 40px;
+}
+.about-content p{
+	font-family: "Open Sans", sans-serif;
+	color: #fff;
+	font-weight: 300;
+}
+
+.button-group li .button{
+	border:0!important;
+}
+
+.button{
+	-webkit-appearance:none;
+	background-color:transparent;
+	border-width:0;
+	text-align:center;
+	box-shadow:0 0 0;
+	padding-left: 1.5rem;
+	font-weight: 300;
+	font-size: 1.2em!important;
+}
+
+.button:hover{
+	color:rgba(255,255,255,0.7);
+	background-color:transparent;
+}
+
+footer p,footer a{
+	font-size:14px;
+}
+
+.hero{
+	padding-bottom:50px;
+	background-image:url("../img/hero_land.jpg");
+	background-size:cover;box-shadow:inset 0px 0px 0 2000px rgba(0,0,0,0.2);
+}
+
+.hero-content{
+	padding-top:0;
+	padding-bottom:40px;
+	background-color:#5C422C;
+}
+
+.panel{
+	margin:40px 0 40px 0;
+	box-shadow:2px 2px 10px rgba(0,0,0,0.2);
+	border:none;
+	background-color:#DECDC0;
+}
+
+.large-4 img{
+	box-shadow:2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.radius.right.button{
+	color:#000;
+	border:2px #000 solid;
+	border-radius:5px;
+	padding:15px 50px 15px 50px;
+	margin:0;
+	font-size:0.8125em;
+}
+
+@media only screen and (min-width: 64.063em) {
+	.radius.right.button{color:#000;
+		border:2px #000 solid;
+		border-radius:5px;
+		padding:15px 50px 15px 50px;
+		margin-top:25px;
+		font-size:0.8125em;
+		}
+	}
+
+@media only screen and (min-width: 40.063em) {
+	.radius.right.button{
+		color:#000;
+		border:2px #000 solid;
+		border-radius:5px;
+		padding:15px 50px 15px 50px;
+		margin-top:25px;
+		font-size:0.8125em;
+		}
+	}
+
+.radius.right.button:hover{background-color:rgba(0,0,0,0.1);}
+
+
+.top-bar .top-bar-section li:hover > a {
+  	text-decoration: none;
+  	position: relative;
+  	background-color: #2C545C!important;
+}
+
+.top-bar .top-bar-section li:hover > a:after {
+	content: '';
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	border-width: 0 0 1px;
+	border-style: solid;
+ }
+
+.top-bar-section ul li>a {
+  	background-color: #decdc0;
+  	font-size: 1em;
+  	font-weight: 300;
+}
+
+.contain-to-grid .top-bar {
+  margin-bottom: 0;
+}
+
+.contain-to-grid.sticky {
+  background: #2F95A8;
+}
+
+body > section.hero-content > div.contain-to-grid.sticky > nav {
+  background: #2F95A8;
+}
+
+ul {
+  text-align: center;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color: #2F95A8;
+}
